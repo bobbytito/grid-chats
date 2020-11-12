@@ -19,7 +19,7 @@ function Post({
     return (
         <div className="post">
             <div className="post_avatar">
-                <Avatar src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png"/>
+                <Avatar src="https://th.bing.com/th/id/OIP.mb7ryKkAbUHxJeGZqsAOvQHaHS?w=175&h=180&c=7&o=5&pid=1.7"/>
             </div>
             <div className="post_body">
                 <div className="post_header">
