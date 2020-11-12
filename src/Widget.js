@@ -10,13 +10,13 @@ import SearchIcon from "@material-ui/icons/Search"
 function Widget() {
     return (
         <div className="widget">
-            <div className="widgets_input">
-                <SearchIcon className="widgets_searchIcon" />
+            <div className="widget_input">
+                <SearchIcon className="widget_searchIcon" />
                 <input placeholder="Search Twitter" types="text" />
             </div>
 
-            <div className="widgers_widgerContainer">
-                <h2>Whats Happening</h2>
+            <div className="widget_widgetContainer">
+                <h2>What's happening</h2>
 
                 <TwitterTimelineEmbed
                     sourceType="profile"

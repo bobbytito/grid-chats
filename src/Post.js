@@ -19,24 +19,24 @@ function Post({
     return (
         <div className="post">
             <div className="post_avatar">
-                <Avatar src="https://th.bing.com/th/id/OIP.mb7ryKkAbUHxJeGZqsAOvQHaHS?w=175&h=180&c=7&o=5&pid=1.7"/>
+                <Avatar src={avatar}/>
             </div>
             <div className="post_body">
                 <div className="post_header">
                     <div className="post_headerText">
                         <h3>
-                            Robo Tito{""}
+                            {displayName}{""}
                             <span className="post_headerSpecial">
-                                <VerifiedUserIcon className="post_badge"/> @BobbyTito
+                             {verified &&  <VerifiedUserIcon className="post_badge"/>}  @{username}
                             </span>
                         </h3>
                     </div>
                     <div className="post_headerDescription">
-                        <p>I challenge you to build a chat app</p>
+                        <p>{text}</p>
                     </div>
                 </div>
                 <img 
-                src="https://media2.giphy.com/media/r2jnl5GABxAvOY270o/giphy.webp" alt=""
+                src={image} alt=""
                 />
                 <div className="post_footer">
                     <ChatBubbleOutlineIcon fontSize="small" />

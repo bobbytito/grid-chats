@@ -17,7 +17,13 @@ function Feed() {
 
 
             {/* Post Section */}
-            <Post />
+            <Post displayName="Robo tito"
+            username="bobby_tito_"
+            verified={true}
+            text="Yoo its workding"
+            image="https://media2.giphy.com/media/r2jnl5GABxAvOY270o/giphy.webp"
+            avatar="https://th.bing.com/th/id/OIP.mb7ryKkAbUHxJeGZqsAOvQHaHS?w=175&h=180&c=7&o=5&pid=1.7"
+            />
             <Post />
             <Post />
             <Post />
