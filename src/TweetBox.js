@@ -12,7 +12,7 @@ function TweetBox() {
                     />
                 </div>
                    <input className="tweetBox_imageInput"placeholder="Enter image URL" type="text" />
-                <Button className="tweet_Boxtbutton">Tweet</Button>
+                <Button className="tweet_Boxtbutton">Post</Button>
             </form>
         </div>
     )
